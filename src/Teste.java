@@ -7,7 +7,7 @@ public class Teste {
 
 public static void main(String[] args) {
    DataSource dc = new DataSource();
-   ClienteDao Banco = new ClienteDao();
+   ClienteDao Banco = new ClienteDao(dc);
    Cliente Mateus = new Cliente();
    Mateus.setId(1);
    Mateus.setNome("Mateus");

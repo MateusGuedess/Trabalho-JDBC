@@ -38,7 +38,7 @@ public class ClienteDao {
     public boolean inserirCliente(Cliente c){       
         boolean retorno;
         try{
-            String sql = "INSERT INTO cliente(nome,"
+            String sql = "INSERT INTO cliente("
                     + "nome, "
                     + "email, "
                     + "telefone) VALUES"
